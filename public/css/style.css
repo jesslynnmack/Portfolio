@@ -1,0 +1,152 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+.imageContainer { 
+    background: url(../images/Screenshot\ 2018-10-25\ 21.54.23.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 700px;
+  }
+
+.intro {
+    position: relative;
+    top: 250px;
+    text-align:center;
+    color: black;
+}
+.imageContainer h1 {
+    position: relative;
+    top: 250px;
+    font-size: 60px;
+    text-align:center;
+    color: black;
+}
+
+a.adventureButton{
+    position: relative;
+    top: 350px;
+    background-color: transparent;
+    border: solid 2px black;
+    color: black;
+    padding: 12px;
+    margin-left: 42%;
+    font-size: 16px;
+}
+.navbar ul li {
+    color:white;
+    font-size: 15px;
+    margin: 10px;
+}
+#spaceDiv{
+    height: 150px;
+}
+
+#inputContainer { 
+    background: url(../images/bicycle-cloud-clouds-258045.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
+  }
+
+#categoryContainer {
+    height: 700px;
+}
+.img-container{
+    position: relative;
+    text-align: center;
+}
+.img-container:hover .overlay{
+    opacity: 1;
+}
+.overlay{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: rgba(54, 54, 54, 0.849);
+}
+.gal-text{
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+    
+}
+
+#portfolio-desc {
+    background-color: #f8f8f8;
+    padding: 5rem;
+    text-align: center;
+    border-bottom: 1px solid #f1f1f1;
+}
+#about {
+    background-color: #f8f8f8;
+    padding: 5rem;
+    text-align: center;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+#demo-desc, h3 {
+    text-align:center;
+}
+hr {
+    background-color: #c5c5c5;
+    width: 6%;
+    height: 0.0625em;
+    border: none;
+    margin-left: 47%;
+    margin-bottom: 1.5625em;
+}
+
+/* Social icons */
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+/* Instagram */
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+
+
+
